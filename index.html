@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sai Sreekar Reddy Boyapally - SOC Analyst & Cybersecurity Professional specializing in threat detection, incident response, and digital forensics.">
+    <meta name="keywords" content="SOC Analyst, Cybersecurity, Security Operations, Incident Response, Digital Forensics">
+    <meta name="author" content="Sai Sreekar Reddy Boyapally">
+    <title>Sai Sreekar Reddy Boyapally | SOC Analyst</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">SSR<span class="logo-dot">.</span></span>
+            </div>
+            <div class="nav-links">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#education" class="nav-link">Education</a>
+                <a href="#blog" class="nav-link">Blog</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="grid-overlay"></div>
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <canvas id="particleCanvas"></canvas>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <div class="glitch-wrapper">
+                    <p class="hero-greeting">Hello, I'm</p>
+                </div>
+                <h1 class="hero-name">
+                    <span class="glitch" data-text="Sai Sreekar Reddy Boyapally">Sai Sreekar Reddy Boyapally</span>
+                </h1>
+                <div class="hero-title-wrapper">
+                    <h2 class="hero-title">
+                        <span class="typing-text">SOC Analyst</span>
+                        <span class="cursor">|</span>
+                    </h2>
+                </div>
+                <p class="hero-description">
+                    Cybersecurity professional specializing in threat detection, incident response, and digital forensics. 
+                    Passionate about defending against evolving cyber threats and building secure systems.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        <span>View My Work</span>
+                        <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <span>Get In Touch</span>
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="2">0</div>
+                        <div class="stat-label">Years Learning</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="5">0</div>
+                        <div class="stat-label">Projects Completed</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="2">0</div>
+                        <div class="stat-label">Certifications</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll Down</span>
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Get To Know Me</span>
+                <h2 class="section-title">About Me</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-intro">
+                        I'm a cybersecurity professional with a unique blend of technical expertise and investigative mindset. 
+                        Currently pursuing my Master's in Cybersecurity at UNC Charlotte, I'm driven by the challenge of 
+                        staying one step ahead of cyber threats.
+                    </p>
+                    <p>
+                        My journey into cybersecurity began with a fascination for how systems work—and more importantly, 
+                        how they can be protected. From conducting real-world digital forensics investigations to building 
+                        privacy-preserving machine learning models, I approach every challenge with curiosity and determination.
+                    </p>
+                    <p>
+                        What sets me apart is my hands-on experience with complex security scenarios. Whether it's analyzing 
+                        compromised systems, hunting for threats in network traffic, or designing secure architectures, 
+                        I thrive on solving problems that matter. I believe the best defense comes from understanding the 
+                        attacker's perspective, which is why I continuously sharpen my skills in both offensive and defensive security.
+                    </p>
+                    <p>
+                        Beyond technical skills, I'm a natural leader who enjoys mentoring others and collaborating on 
+                        challenging projects. My goal is to join a forward-thinking security operations team where I can 
+                        contribute to defending critical infrastructure while continuing to grow as a cybersecurity professional.
+                    </p>
+                    <div class="about-cta">
+                        <a href="#contact" class="btn btn-outline">Let's Connect</a>
+                    </div>
+                </div>
+                <div class="about-visual">
+                    <div class="terminal-window">
+                        <div class="terminal-header">
+                            <div class="terminal-buttons">
+                                <span class="terminal-button red"></span>
+                                <span class="terminal-button yellow"></span>
+                                <span class="terminal-button green"></span>
+                            </div>
+                            <span class="terminal-title">threat_hunter.sh</span>
+                        </div>
+                        <div class="terminal-body">
+                            <div class="terminal-line">
+                                <span class="terminal-prompt">sai@security:~$</span>
+                                <span class="terminal-command">whoami</span>
+                            </div>
+                            <div class="terminal-output">Cybersecurity Professional</div>
+                            <div class="terminal-line">
+                                <span class="terminal-prompt">sai@security:~$</span>
+                                <span class="terminal-command">cat specialties.txt</span>
+                            </div>
+                            <div class="terminal-output">
+                                → Threat Detection & Analysis<br>
+                                → Incident Response<br>
+                                → Digital Forensics<br>
+                                → Security Operations<br>
+                                → Malware Analysis
+                            </div>
+                            <div class="terminal-line">
+                                <span class="terminal-prompt">sai@security:~$</span>
+                                <span class="terminal-command">echo $MISSION</span>
+                            </div>
+                            <div class="terminal-output">
+                                "Defending systems, one threat at a time."
+                            </div>
+                            <div class="terminal-line">
+                                <span class="terminal-prompt">sai@security:~$</span>
+                                <span class="terminal-cursor">_</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="floating-badges">
+                        <div class="badge badge-1">🛡️ Threat Hunter</div>
+                        <div class="badge badge-2">🔍 Forensics Expert</div>
+                        <div class="badge badge-3">⚡ Incident Responder</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Technical Arsenal</span>
+                <h2 class="section-title">Skills & Expertise</h2>
+            </div>
+            <div class="skills-grid">
+                <!-- Security Operations -->
+                <div class="skill-category">
+                    <div class="category-icon">🛡️</div>
+                    <h3 class="category-title">Security Operations</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">SIEM (Splunk)</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Log Analysis</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Incident Response</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">MITRE ATT&CK</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Forensics & Investigation -->
+                <div class="skill-category">
+                    <div class="category-icon">🔍</div>
+                    <h3 class="category-title">Forensics & Investigation</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Autopsy</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 88%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">RegRipper</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 82%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Digital Evidence Collection</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Forensic Reporting</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 90%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Network Security -->
+                <div class="skill-category">
+                    <div class="category-icon">🌐</div>
+                    <h3 class="category-title">Network Security</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Wireshark</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Network Analysis</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Firewall Configuration</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">IDS/IPS</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 78%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Programming & Automation -->
+                <div class="skill-category">
+                    <div class="category-icon">💻</div>
+                    <h3 class="category-title">Programming & Automation</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Python</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Bash Scripting</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">PowerShell</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 70%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Security Automation</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Operating Systems -->
+                <div class="skill-category">
+                    <div class="category-icon">🖥️</div>
+                    <h3 class="category-title">Operating Systems</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Linux Administration</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Windows Security</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 88%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Active Directory</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">System Hardening</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cloud Security -->
+                <div class="skill-category">
+                    <div class="category-icon">☁️</div>
+                    <h3 class="category-title">Cloud Security</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">AWS Security</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Cloud IAM</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 70%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Cloud Compliance</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 72%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Cloud Monitoring</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 68%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Certifications -->
+            <div class="certifications">
+                <h3 class="certifications-title">Certifications</h3>
+                <div class="cert-grid">
+                    <div class="cert-card">
+                        <div class="cert-icon">🎓</div>
+                        <div class="cert-info">
+                            <h4>CompTIA Security+</h4>
+                            <p>Foundation in Cybersecurity</p>
+                        </div>
+                    </div>
+                    <div class="cert-card">
+                        <div class="cert-icon">☁️</div>
+                        <div class="cert-info">
+                            <h4>AWS Cloud Practitioner</h4>
+                            <p>Cloud Security Fundamentals</p>
+                        </div>
+                    </div>
+                    <div class="cert-card cert-upcoming">
+                        <div class="cert-icon">📚</div>
+                        <div class="cert-info">
+                            <h4>Continuous Learning</h4>
+                            <p>Always expanding knowledge</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Portfolio</span>
+                <h2 class="section-title">Featured Projects</h2>
+            </div>
+            <div class="projects-grid">
+                <!-- Project 1: Digital Forensics Investigation -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-icon">🔍</div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="project-tag">Digital Forensics</span>
+                            <span class="project-tag">Investigation</span>
+                        </div>
+                        <h3 class="project-title">Smart Home Breach Investigation</h3>
+                        <p class="project-description">
+                            Led a comprehensive digital forensics investigation of a sophisticated smart home burglary. 
+                            Analyzed compromised IoT devices, traced attacker activities through public WiFi networks, 
+                            and recovered deleted CCTV footage. Utilized Autopsy, RegRipper, and custom forensic tools 
+                            to uncover the attack chain from initial compromise to credential theft.
+                        </p>
+                        <div class="project-highlights">
+                            <div class="highlight-item">
+                                <span class="highlight-label">Tools Used:</span>
+                                <span class="highlight-value">Autopsy, RegRipper, FTK Imager</span>
+                            </div>
+                            <div class="highlight-item">
+                                <span class="highlight-label">Outcome:</span>
+                                <span class="highlight-value">Complete forensic report with evidence chain</span>
+                            </div>
+                        </div>
+                        <div class="project-footer">
+                            <div class="project-tech">
+                                <span>Forensic Analysis</span>
+                                <span>Evidence Recovery</span>
+                                <span>IoT Security</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: ML Pneumonia Detection -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-icon">🧠</div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="project-tag">Machine Learning</span>
+                            <span class="project-tag">Privacy</span>
+                        </div>
+                        <h3 class="project-title">Privacy-Preserving Medical AI System</h3>
+                        <p class="project-description">
+                            Designed and led development of a novel machine learning model for pneumonia detection 
+                            with integrated privacy protection. Pioneered the use of spectrogram conversion to transform 
+                            X-ray images into heat maps, achieving dual benefits: enhanced patient data privacy and 
+                            improved model accuracy. The system reached 97% accuracy while maintaining HIPAA compliance.
+                        </p>
+                        <div class="project-highlights">
+                            <div class="highlight-item">
+                                <span class="highlight-label">Innovation:</span>
+                                <span class="highlight-value">Novel spectrogram-based privacy layer</span>
+                            </div>
+                            <div class="highlight-item">
+                                <span class="highlight-label">Achievement:</span>
+                                <span class="highlight-value">97% accuracy, investor recognition</span>
+                            </div>
+                        </div>
+                        <div class="project-footer">
+                            <div class="project-tech">
+                                <span>Machine Learning</span>
+                                <span>Data Privacy</span>
+                                <span>Healthcare Security</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3: Home SOC Lab (Placeholder) -->
+                <div class="project-card project-upcoming">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-icon">🛡️</div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="project-tag">SOC</span>
+                            <span class="project-tag">In Progress</span>
+                        </div>
+                        <h3 class="project-title">Home Security Operations Center</h3>
+                        <p class="project-description">
+                            Building a comprehensive home SOC lab environment to simulate enterprise-level security 
+                            operations. Deploying SIEM solutions, creating custom detection rules, and practicing 
+                            incident response workflows in a controlled environment.
+                        </p>
+                        <div class="project-footer">
+                            <div class="project-tech">
+                                <span>SIEM</span>
+                                <span>Threat Detection</span>
+                                <span>Lab Environment</span>
+                            </div>
+                            <div class="project-status">Coming Soon</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4: Malware Analysis (Placeholder) -->
+                <div class="project-card project-upcoming">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-icon">🦠</div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="project-tag">Malware Analysis</span>
+                            <span class="project-tag">In Progress</span>
+                        </div>
+                        <h3 class="project-title">Malware Sample Analysis & Detection</h3>
+                        <p class="project-description">
+                            Comprehensive analysis of real-world malware samples in a secure lab environment. 
+                            Documenting indicators of compromise (IOCs), creating detection signatures, and 
+                            building SIEM rules to identify similar threats in production environments.
+                        </p>
+                        <div class="project-footer">
+                            <div class="project-tech">
+                                <span>Reverse Engineering</span>
+                                <span>Threat Intelligence</span>
+                                <span>Detection Rules</span>
+                            </div>
+                            <div class="project-status">Coming Soon</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5: Custom Detection Rules (Placeholder) -->
+                <div class="project-card project-upcoming">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-icon">⚡</div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="project-tag">Detection Engineering</span>
+                            <span class="project-tag">In Progress</span>
+                        </div>
+                        <h3 class="project-title">Custom Security Detection Rules</h3>
+                        <p class="project-description">
+                            Developing a library of custom detection rules using Sigma and Snort for common attack 
+                            patterns including phishing, brute force attacks, lateral movement, and ransomware. 
+                            Each rule includes comprehensive testing and documentation.
+                        </p>
+                        <div class="project-footer">
+                            <div class="project-tech">
+                                <span>Sigma Rules</span>
+                                <span>SIEM Queries</span>
+                                <span>Threat Hunting</span>
+                            </div>
+                            <div class="project-status">Coming Soon</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 6: Incident Response Simulation (Placeholder) -->
+                <div class="project-card project-upcoming">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-icon">🚨</div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-tags">
+                            <span class="project-tag">Incident Response</span>
+                            <span class="project-tag">In Progress</span>
+                        </div>
+                        <h3 class="project-title">Incident Response Simulation</h3>
+                        <p class="project-description">
+                            Complete incident response walkthrough from initial detection to post-incident analysis. 
+                            Simulating real-world attack scenarios in a lab environment and documenting professional 
+                            IR reports following industry standards and best practices.
+                        </p>
+                        <div class="project-footer">
+                            <div class="project-tech">
+                                <span>IR Procedures</span>
+                                <span>Containment</span>
+                                <span>Forensic Reporting</span>
+                            </div>
+                            <div class="project-status">Coming Soon</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Academic Background</span>
+                <h2 class="section-title">Education</h2>
+            </div>
+            <div class="education-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">Expected May 2026</div>
+                        <h3 class="timeline-title">Master of Science in Cybersecurity</h3>
+                        <p class="timeline-institution">University of North Carolina at Charlotte</p>
+                        <p class="timeline-description">
+                            Advanced studies in threat detection, incident response, digital forensics, and security operations. 
+                            Completed hands-on projects in computer forensics, malware analysis, and security architecture.
+                        </p>
+                        <div class="timeline-highlights">
+                            <span class="highlight-badge">Computer Forensics</span>
+                            <span class="highlight-badge">Security Operations</span>
+                            <span class="highlight-badge">Incident Response</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2024</div>
+                        <h3 class="timeline-title">Bachelor of Technology in Information Technology</h3>
+                        <p class="timeline-institution">VNRVJIET, India</p>
+                        <p class="timeline-description">
+                            Strong foundation in computer science, networking, and system administration. 
+                            Led major project on privacy-preserving machine learning achieving 97% accuracy 
+                            with investor recognition across India.
+                        </p>
+                        <div class="timeline-highlights">
+                            <span class="highlight-badge">Machine Learning</span>
+                            <span class="highlight-badge">Network Security</span>
+                            <span class="highlight-badge">Team Leadership</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="blog">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Knowledge Sharing</span>
+                <h2 class="section-title">Blog & Insights</h2>
+                <p class="section-subtitle">Documenting my cybersecurity journey and sharing what I learn</p>
+            </div>
+            <div class="blog-content">
+                <div class="blog-placeholder">
+                    <div class="blog-icon">📝</div>
+                    <h3>Blog Coming Soon</h3>
+                    <p>
+                        I'm currently setting up my technical blog where I'll share insights on threat detection, 
+                        forensic investigations, SOC operations, and hands-on security projects. Stay tuned for 
+                        detailed writeups, tutorials, and cybersecurity best practices.
+                    </p>
+                    <div class="blog-topics">
+                        <h4>Upcoming Topics:</h4>
+                        <ul>
+                            <li>Building a Home SOC Lab from Scratch</li>
+                            <li>Digital Forensics: Lessons from Real-World Investigations</li>
+                            <li>Malware Analysis for Beginners</li>
+                            <li>Writing Effective SIEM Detection Rules</li>
+                            <li>Incident Response: A Practical Walkthrough</li>
+                        </ul>
+                    </div>
+                    <div class="blog-cta">
+                        <p>Want to be notified when I publish? Connect with me on LinkedIn!</p>
+                        <a href="https://www.linkedin.com/in/sai-sreekar-reddy-boyapally/" target="_blank" class="btn btn-primary">Follow on LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Let's Connect</span>
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">
+                    I'm actively seeking SOC Analyst opportunities and always open to discussing cybersecurity, 
+                    collaborating on projects, or simply connecting with fellow security professionals.
+                </p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                            </svg>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <a href="mailto:sreekarreddy369@gmail.com">sreekarreddy369@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/>
+                                <path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/>
+                            </svg>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Location</h3>
+                            <p>Charlotte, NC</p>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                            </svg>
+                        </div>
+                        <div class="contact-details">
+                            <h3>LinkedIn</h3>
+                            <a href="https://www.linkedin.com/in/sai-sreekar-reddy-boyapally/" target="_blank">Connect with me</a>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                            </svg>
+                        </div>
+                        <div class="contact-details">
+                            <h3>GitHub</h3>
+                            <p class="coming-soon">Coming Soon</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper">
+                    <div class="contact-visual">
+                        <div class="cyber-grid"></div>
+                        <div class="contact-decoration">
+                            <div class="deco-circle circle-1"></div>
+                            <div class="deco-circle circle-2"></div>
+                            <div class="deco-circle circle-3"></div>
+                        </div>
+                        <div class="availability-badge">
+                            <span class="status-indicator"></span>
+                            <span>Available for opportunities</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <p>&copy; 2025 Sai Sreekar Reddy Boyapally. All rights reserved.</p>
+                </div>
+                <div class="footer-right">
+                    <a href="#home" class="footer-link">Back to Top ↑</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
